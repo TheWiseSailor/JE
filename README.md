@@ -1,3 +1,3 @@
 # JE - A Personal Ecommerce like store
 
-#and more
+# and more
