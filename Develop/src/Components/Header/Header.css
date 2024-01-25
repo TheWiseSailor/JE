@@ -1,3 +1,45 @@
+/* Header.css */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logoContainer {
+  flex: 1; 
+}
+
 .HeaderLogoImage {
   height: 80px;
+}
+
+/* NavLinks.css */
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black; 
+}
+
+@media (max-width: 600px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoContainer {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  .logoContainer {
+    margin-right: 20px; 
+  }
 }
