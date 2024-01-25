@@ -6,10 +6,14 @@ import NavLinks from '../NavLinks/NavLinks';
 
 const Header = () => {
   return (
+    <div className='HeaderPrimary'>
     <header className='headerContainer'>
+
       <img src={LogoImage} alt="JE" className='HeaderLogoImage' />
       <NavLinks />
+
     </header>
+    </div>
   );
 }
 

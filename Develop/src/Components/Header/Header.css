@@ -4,8 +4,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-}
 
+  width: 100% !; 
+}
+.HeaderPrimary{
+  background-color: rgb(247, 188, 78);
+}
 .logoContainer {
   flex: 1; 
 }
@@ -42,7 +46,10 @@ a {
     margin: 0 auto; 
     max-width: 1200px; 
   }
-
+.HeaderPrimary{
+  width: 100% !important;
+  
+}
   .logoContainer {
     margin-right: 20px; 
   }
