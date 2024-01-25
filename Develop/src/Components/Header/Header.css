@@ -37,7 +37,16 @@ a {
     margin-bottom: 10px;
   }
 }
+@media (min-width: 600px) {
+  .headerContainer {
+    margin: 0 auto; 
+    max-width: 1200px; 
+  }
 
+  .logoContainer {
+    margin-right: 20px; 
+  }
+}
 @media (min-width: 600px) {
   .logoContainer {
     margin-right: 20px; 
