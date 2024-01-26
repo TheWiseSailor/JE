@@ -1,16 +1,24 @@
-.HomeHeroContainer{
-  min-height: 850px;
+.HomeHeroContainer {
+  min-height: 92vh; 
+
   text-align: center;
   background-size: cover; 
-  background-position: center; 
-
+  background-position: center;
 }
 
 .Darkshader {
   position: absolute;
-
   width: 100%;
-  height: 850px;
-
+  height: 92%; 
   background-color: rgba(0, 0, 0, 0.5); 
+}
+
+@media (max-width: 768px) {
+  .HomeHeroContainer {
+    min-height: 500px; 
+  }
+
+  .Darkshader {
+    height: 500px; 
+  }
 }
