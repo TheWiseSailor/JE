@@ -1,0 +1,16 @@
+.HomeHeroContainer{
+  min-height: 850px;
+  text-align: center;
+  background-size: cover; 
+  background-position: center; 
+
+}
+
+.Darkshader {
+  position: absolute;
+
+  width: 100%;
+  height: 850px;
+
+  background-color: rgba(0, 0, 0, 0.5); 
+}
