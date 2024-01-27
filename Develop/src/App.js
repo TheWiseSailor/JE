@@ -1,21 +1,25 @@
-// App.js
 import React from 'react';
 import './App.css';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePageRender from './Components/HomePageRender';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 
-import HomePage from './Components/Homepage/Hero/Hero';
-import AboutMe from './Components/Homepage/AboutMe/AboutMe';
+import SignUp from './Components/SignUp/SignUp';
+
 function App() {
   return (
-    <div>
-      <Header />
-      <Footer />
+    <Router>
+      <div>
+        <Header />
 
-      <HomePage /> 
-      <AboutMe /> 
-    </div>
+        <Routes>
+          <Route path="/" element={<HomePageRender />} />
+          <Route path="/signup" element={<SignUp />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

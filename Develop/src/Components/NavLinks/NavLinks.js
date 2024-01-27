@@ -1,13 +1,14 @@
-// NavLinks.js
 import React from 'react';
-import "./NavLinks.css"
+import { Link } from 'react-router-dom'; 
+import "./NavLinks.css";
+
 const NavLinks = () => {
   return (
     <nav>
       <ul>
-      <li><a href="/products">Products</a></li>
-        <li><a href="/about">Contact</a></li>
-        <li><a href="/contact">SignUp</a></li>
+        <li><Link to="/products">Products</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/signup">SignUp</Link></li>
       </ul>
     </nav>
   );
