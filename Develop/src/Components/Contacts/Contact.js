@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-
+//add aos later
 import "./Contact.css";
 
 const ContactFormPage = () => {
@@ -64,7 +64,7 @@ const ContactFormPage = () => {
         data-aos="fade-up"
         data-aos-duration="3000"
       >
-        <h2 className="ContactHomePageHeader-container-page pb-6">
+        <h2 className="ContactHomePageHeader-container-page ">
           Contact Form
         </h2>
         {formSubmitted ? (
