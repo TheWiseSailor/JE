@@ -1,0 +1,32 @@
+.about-me-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto; 
+}
+.PrimaryContainer{
+  background-color: rgb(134, 178, 199);
+}
+@media (min-width: 768px) {
+  .about-me-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.JairImage {
+  margin-bottom: 20px;
+}
+
+.description-container {
+  max-width: 600px;
+  margin-left: 20px; /* Add some margin between the image and the paragraph */
+}
+
+.JairImage img {
+  max-width: 100%;
+  height: auto;
+}
