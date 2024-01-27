@@ -1,14 +1,24 @@
 .about-me-container {
+padding-top: 50px;
+padding-bottom: 50px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1500px;
+  max-width: 1300px;
   margin: 0 auto; 
 }
 .PrimaryContainer{
   background-color: rgb(134, 178, 199);
 }
+
+  .Jair{
+    border-top-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+  }
 @media (min-width: 768px) {
   .about-me-container {
     flex-direction: row;
@@ -17,16 +27,38 @@
   }
 }
 
-.JairImage {
-  margin-bottom: 20px;
+.JairImage1 {
+padding-top: 5px;
+
+
 }
 
 .description-container {
   max-width: 600px;
-  margin-left: 20px; /* Add some margin between the image and the paragraph */
+  margin-left: 20px; 
 }
 
-.JairImage img {
+.Jair img {
   max-width: 100%;
   height: auto;
+  margin: 0 auto; 
+
 }
+@media (min-width: 600px) {
+.AboutMeParagraph{
+  margin-top: 170px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+}
+@media (max-width: 600px) {
+  .JairImage1 img {
+max-width: 300px;
+    margin: 0 auto; 
+    padding-bottom: 50px;
+  
+  }
+  .about-me-container{
+    padding-bottom: 50px;
+  }
+  }

@@ -7,8 +7,8 @@ const AboutMeSection = () => {
     <div className='PrimaryContainer'>
     <div className="about-me-container">
   
-      <div className="JairImage">
-        <img src={jairImage} alt="Jair" />
+      <div className="JairImage1">
+        <img src={jairImage} alt="Jair" className='Jair'/>
       </div>
       <div className="description-container">
        
