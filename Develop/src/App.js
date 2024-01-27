@@ -14,7 +14,8 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/" element={<HomePageRender />} />
+        <Route path="/" element={<HomePageRender />} />
+          <Route path="/JE" element={<HomePageRender />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
