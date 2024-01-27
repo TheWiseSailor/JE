@@ -16,15 +16,16 @@
 
 .TextContainer {
   position: absolute;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+color: rgb(247, 188, 78);
   text-align: center;
 }
 
 .TextContainer h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .TextContainer p {
@@ -34,7 +35,10 @@
   .HomeHeroContainer {
     min-height: 500px; 
   }
-
+.TextContainer{
+  margin-top: -50px;
+}
+ 
   .Darkshader {
     height: 500px; 
   }
