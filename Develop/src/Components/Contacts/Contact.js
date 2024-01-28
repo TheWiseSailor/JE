@@ -3,7 +3,8 @@ import { useForm, ValidationError } from '@formspree/react';
 import './Contact.css';
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("mgegodzd");
+  const formId = process.env.FORM_ID; // Accessing form ID from environment variable
+  const [state, handleSubmit] = useForm(formId);
 
   if (state.succeeded) {
     return <div className='SuccessMessageBackground'><p className=' SuccessMessage'>Success!<br/> I will be in touch!</p></div>;
