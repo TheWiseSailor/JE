@@ -3,8 +3,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import './Contact.css';
 
 function ContactForm() {
-  const formId = process.env.FORM_ID; // Accessing form ID from environment variable
-  const [state, handleSubmit] = useForm(formId);
+  const [state, handleSubmit] = useForm("mgegodzd");
 
   if (state.succeeded) {
     return <div className='SuccessMessageBackground'><p className=' SuccessMessage'>Success!<br/> I will be in touch!</p></div>;
@@ -15,7 +14,7 @@ function ContactForm() {
       <div className="contact-form-container-page">
         <h2 className="ContactHomePageHeader-container-page">Contact</h2>
         <form onSubmit={handleSubmit} className="form-container">
-
+   
           <input
             id="name"
             type="text"
@@ -31,21 +30,21 @@ function ContactForm() {
             placeholder="Your Email Address"
             required
           />
-
+       
           <input
             id="phone"
             type="tel"
             name="phone"
             placeholder="Your Phone Number"
           />
-  
+      
           <input
             id="subject"
             type="text"
             name="subject"
             placeholder="Subject of your message"
           />
-
+     
           <textarea
             id="message"
             name="message"
