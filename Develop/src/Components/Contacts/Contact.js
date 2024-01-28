@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import './Contact.css'; // Assuming you have a CSS file named Contact.css for styling
+import './Contact.css';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mgegodzd");
@@ -14,42 +14,47 @@ function ContactForm() {
       <div className="contact-form-container-page">
         <h2 className="ContactHomePageHeader-container-page">Contact</h2>
         <form onSubmit={handleSubmit} className="form-container">
-          <label htmlFor="name">Name</label>
+
           <input
             id="name"
             type="text"
             name="name"
+            placeholder="Your Name"
             required
           />
-          <label htmlFor="email">Email Address</label>
+
           <input
             id="email"
             type="email"
             name="email"
+            placeholder="Your Email Address"
             required
           />
-          <label htmlFor="phone">Phone Number</label>
+
           <input
             id="phone"
             type="tel"
             name="phone"
+            placeholder="Your Phone Number"
           />
-          <label htmlFor="subject">Subject</label>
+  
           <input
             id="subject"
             type="text"
             name="subject"
+            placeholder="Subject of your message"
           />
-          <label htmlFor="message">Message</label>
+
           <textarea
             id="message"
             name="message"
+            placeholder="Your Message"
             required
           />
           <button type="submit" disabled={state.submitting} className="button-container-page">
             Submit
           </button>
-          {/* Moved validation errors after the form inputs */}
+     
           <ValidationError
             prefix="Email"
             field="email"
