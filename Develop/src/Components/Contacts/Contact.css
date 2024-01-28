@@ -3,19 +3,18 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-background-color: rgb(120, 95, 177);
-color: rgb(247, 188, 78);
+background-color: rgb(137, 95, 177);
+
   background-size: cover;
-font-weight: bold;
+
   background-position: center;
 
   background-repeat: no-repeat;
 
   background-attachment: fixed;
+  margin-bottom: 50px;
 }
-.ContactHomePageHeader-container-page{
-  text-align: center;
-}
+
 .contact-form-container-page {
   width: 60%;
   max-width: 500px;
@@ -61,29 +60,9 @@ font-weight: bold;
   text-align: center;
   margin-top: 16px;
 }
-.input-container {
-  border: 1px solid rgb(247, 188, 78);
-  border-radius: 15px;
-  padding: 8px;
-  margin-bottom: 15px;
-}
-
-.input-container input,
-.input-container textarea {
-  width: 100%;
-  border: none;
-  outline: none;
-  background: transparent;
-}
-
-.input-container textarea {
-  resize: vertical;
-}
 input,
 textarea {
-  max-width: 100%;
-  padding: 12px;
-  box-sizing: border-box;
+  padding-left: 10px;
   outline: none;
   border: 2px solid rgb(247, 188, 78);
   border-radius: 30px;
