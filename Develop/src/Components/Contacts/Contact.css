@@ -76,3 +76,27 @@ textarea {
     width: 180px; 
   }
 }
+
+
+.SuccessMessage{
+  background-color: rgb(18, 230, 18);
+  margin: 0 auto;
+padding-top: 20px;
+  text-align: center;
+  min-height: 170px;
+  max-width: 230px;
+border-radius: 30px;
+font-weight: bold;
+font-size: 30px;
+}
+.SuccessMessageBackground{
+  background-color: antiquewhite;
+  height: 100vh;
+  padding-top: 400px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .SuccessMessageBackground {
+    padding-top: 200px;
+  }
+}
