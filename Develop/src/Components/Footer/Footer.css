@@ -1,16 +1,12 @@
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: relative; 
   width: 100%;
   background-color: rgb(247, 188, 78);
   padding-top: 15px;
-
   text-align: center; 
   color: #343a40; 
-  display: none; 
 }
 
-.footer.visible {
-  display: block; 
+.content-container {
+  padding-bottom: 50px;
 }
