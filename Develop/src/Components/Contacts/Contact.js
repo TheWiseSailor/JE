@@ -65,7 +65,7 @@ const ContactFormPage = () => {
         data-aos-duration="3000"
       >
         <h2 className="ContactHomePageHeader-container-page ">
-          Contact Form
+          Contact
         </h2>
         {formSubmitted ? (
           <div className="confirmation-message-container">
@@ -74,7 +74,7 @@ const ContactFormPage = () => {
         ) : (
           <form className="form-container" onSubmit={handleSubmit}>
             <label className="label-container" htmlFor="name">
-              Name:
+         
             </label>
             <input
               type="text"
@@ -83,11 +83,11 @@ const ContactFormPage = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              placeholder={typing.name ? "" : "John"}
+              placeholder={typing.name ? "" : "Name"}
             />
 
             <label className="label-container-page" htmlFor="email">
-              Email:
+       
             </label>
             <input
               type="email"
@@ -96,11 +96,11 @@ const ContactFormPage = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              placeholder={typing.email ? "" : "john@example.com"}
+              placeholder={typing.email ? "" : "Email"}
             />
 
             <label className="label-container-page" htmlFor="phone">
-              Phone:
+       
             </label>
             <input
               type="tel"
@@ -109,14 +109,14 @@ const ContactFormPage = () => {
               value={formData.phone}
               onChange={handleChange}
               required
-              placeholder={typing.phone ? "" : "555-123-4567"}
+              placeholder={typing.phone ? "" : "Phone Number"}
             />
 
             <label
               className="label-container-page bg-black-600"
               htmlFor="subject"
             >
-              Subject:
+     
             </label>
             <input
               type="text"
@@ -125,11 +125,11 @@ const ContactFormPage = () => {
               value={formData.subject}
               onChange={handleChange}
               required
-              placeholder={typing.subject ? "" : "Write your subject here!"}
+              placeholder={typing.subject ? "" : "Subject"}
             />
 
             <label className="label-container-page" htmlFor="message">
-              Message:
+    
             </label>
             <textarea
               id="message"
