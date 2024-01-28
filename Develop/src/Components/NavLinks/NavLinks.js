@@ -9,7 +9,7 @@ const NavLinks = () => {
 
       <ul>
         <li   data-aos="fade-up"
-              data-aos-duration="3000"><Link to="/products">Products</Link></li>
+              data-aos-duration="3000"><Link to="/product">Products</Link></li>
         <li  data-aos="fade-down"
               data-aos-duration="3000"><Link to="/contact">Contact</Link></li>
         <li  data-aos="fade-up"
