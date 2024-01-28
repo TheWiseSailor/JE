@@ -10,7 +10,9 @@
   background-attachment: fixed;
 
 }
-
+.ContactHomePageHeader-container-page{
+  text-align: center;
+}
 .contact-form-container-page {
   margin-top: -100px;
   width: 60%;
