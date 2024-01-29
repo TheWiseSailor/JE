@@ -15,7 +15,7 @@
 .product-card {
   background-color:  rgb(247, 188, 78);
   border: 2px solid #000000;
-  border-radius: 35px;
+  border-radius: 25px;
   padding: 10px;
   margin: 10px;
 max-width: 400px;
@@ -24,7 +24,7 @@ max-width: 400px;
 .product-card img {
 max-width: 300px;
 min-height: 300px;
-  border-radius: 35px;
+  border-radius: 20px;
 }
 
 .product-card h3 {
