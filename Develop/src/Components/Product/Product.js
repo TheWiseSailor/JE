@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 
 import "./Product.css"
 
@@ -15,16 +15,16 @@ const Product = () => {
 
   return (
     <div className="product-page">
-      <h1>Products</h1>
+      <h1></h1>
       <div className="product-container">
         {products.map(product => (
-          <Link to={`/product/${product.id}`} key={product.id}> 
-            <div className="product-card">
-              <img src={product.imageUrl} alt={product.name} />
+          <div className="product-card" key={product.id}>
+            <img src={product.imageUrl} alt={product.name} />
+            <Link to={`/product/${product.id}`}>
               <h3>{product.name}</h3>
-              <p>{product.price}</p>
-            </div>
-          </Link>
+            </Link>
+            <p>{product.price}</p>
+          </div>
         ))}
       </div>
     </div>
