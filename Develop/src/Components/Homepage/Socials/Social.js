@@ -4,7 +4,7 @@ import facebookIcon from './SocialImages/facebook.png'
 import mailIcon from './SocialImages/mail.png';
 import phoneIcon from './SocialImages/phone.png';
 import instagramIcon from './SocialImages/instagram.png';
-
+import AOSInitializer from "../../AOS/AOSInitializer";
 
 const Social = () => {
   const handleCall = () => {
@@ -12,7 +12,9 @@ const Social = () => {
 };
     return (
         <div className="social-container">
-          <div className='SocialContactContainer'>
+                    <AOSInitializer/>
+          <div className='SocialContactContainer'data-aos="fade-up"
+              data-aos-duration="3000">
             <h2>Contact Me!</h2>
             <div className="social-icons">
                 
