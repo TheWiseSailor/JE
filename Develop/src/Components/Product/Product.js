@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import "./Product.css"
+
 const Product = () => {
 
   const products = [
@@ -13,12 +15,14 @@ const Product = () => {
 
   return (
     <div className="product-page">
-      <h1>Products</h1>
+      <h1></h1>
       <div className="product-container">
         {products.map(product => (
           <div className="product-card" key={product.id}>
             <img src={product.imageUrl} alt={product.name} />
-            <h3>{product.name}</h3>
+            <Link to={`/product/${product.id}`}>
+              <h3>{product.name}</h3>
+            </Link>
             <p>{product.price}</p>
           </div>
         ))}
