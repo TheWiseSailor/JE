@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 import "./Product.css"
+
 const Product = () => {
 
   const products = [
@@ -16,11 +18,13 @@ const Product = () => {
       <h1>Products</h1>
       <div className="product-container">
         {products.map(product => (
-          <div className="product-card" key={product.id}>
-            <img src={product.imageUrl} alt={product.name} />
-            <h3>{product.name}</h3>
-            <p>{product.price}</p>
-          </div>
+          <Link to={`/product/${product.id}`} key={product.id}> 
+            <div className="product-card">
+              <img src={product.imageUrl} alt={product.name} />
+              <h3>{product.name}</h3>
+              <p>{product.price}</p>
+            </div>
+          </Link>
         ))}
       </div>
     </div>
