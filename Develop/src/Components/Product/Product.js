@@ -32,3 +32,5 @@ const Product = () => {
 };
 
 export default Product;
+
+//in the futurem add like an add to cart and make itto where we can view all our products we have in our car as well as making it to where we can add or delete as well
