@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import AcquaImage from './ProductImages/Acqua.png';
 import GoldBarImage from './ProductImages/GoldBar.png';
 
+import AOSInitializer from "../AOS/AOSInitializer";
+
 import "./Product.css"
 
 const Product = () => {
@@ -19,8 +21,10 @@ const Product = () => {
     <div className="product-page">
       <h1></h1>
       <div className="product-container">
+      <AOSInitializer />
         {products.map(product => (
-          <div className="product-card" key={product.id}>
+          <div className="product-card" data-aos="fade-down"
+          data-aos-duration="3000" key={product.id}>
             <img src={product.imageUrl} alt={product.name} />
             <Link to={`/product/${product.id}`}>
               <h3 className="text-decoration-none">{product.name}</h3>
