@@ -23,7 +23,7 @@ const Product = () => {
           <div className="product-card" key={product.id}>
             <img src={product.imageUrl} alt={product.name} />
             <Link to={`/product/${product.id}`}>
-              <h3>{product.name}</h3>
+              <h3 className="text-decoration-none">{product.name}</h3>
             </Link>
             <p>{product.price}</p>
           </div>
