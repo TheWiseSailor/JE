@@ -22,8 +22,8 @@ max-width: 400px;
 }
 
 .product-card img {
-max-width: 300px;
-min-height: 300px;
+min-width: 200px;
+max-height: 200px;
   border-radius: 20px;
 }
 
