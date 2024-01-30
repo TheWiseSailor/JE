@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/JE/static/css/main.35ba5600.css",
-    "main.js": "/JE/static/js/main.9758ff10.js",
+    "main.css": "/JE/static/css/main.fdc1aa81.css",
+    "main.js": "/JE/static/js/main.193c3fe2.js",
     "static/js/787.9424225f.chunk.js": "/JE/static/js/787.9424225f.chunk.js",
+    "static/media/VersaceEros.png": "/JE/static/media/VersaceEros.c580910557b8025053ed.png",
     "static/media/Jair.png": "/JE/static/media/Jair.a4cd38228a2339c46a55.png",
     "static/media/GoldBar.png": "/JE/static/media/GoldBar.cb02179167985fc0b12e.png",
     "static/media/Logo.png": "/JE/static/media/Logo.08bdf77b42a68ac8c9f6.png",
     "static/media/Image1.jpg": "/JE/static/media/Image1.77a891893ad60546cfba.jpg",
     "static/media/Acqua.png": "/JE/static/media/Acqua.2b777641c419f4016bcf.png",
+    "static/media/BleuDeChanel.png": "/JE/static/media/BleuDeChanel.b414cc3a0bc8ce3dd063.png",
+    "static/media/GucciEAU.png": "/JE/static/media/GucciEAU.bab86dc3612dbad3ee12.png",
     "index.html": "/JE/index.html",
-    "main.35ba5600.css.map": "/JE/static/css/main.35ba5600.css.map",
-    "main.9758ff10.js.map": "/JE/static/js/main.9758ff10.js.map",
+    "main.fdc1aa81.css.map": "/JE/static/css/main.fdc1aa81.css.map",
+    "main.193c3fe2.js.map": "/JE/static/js/main.193c3fe2.js.map",
     "787.9424225f.chunk.js.map": "/JE/static/js/787.9424225f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ba5600.css",
-    "static/js/main.9758ff10.js"
+    "static/css/main.fdc1aa81.css",
+    "static/js/main.193c3fe2.js"
   ]
 }
