@@ -93,6 +93,7 @@ a {
     justify-content: flex-end; 
     width: 100%; 
     font-weight: bolder;
+    font-size: 2px;
 
   }
   .navbar-nav .nav-link {
