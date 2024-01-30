@@ -16,8 +16,8 @@ const Product = () => {
     { id: 1, name: 'Paco Rabanne', price: '$75', imageUrl: GoldBarImage },
     { id: 2, name: 'Acqua Di Gio', price: '$85', imageUrl: AcquaImage },
     { id: 3, name: 'Versace Eros', price: '$100', imageUrl: VersaceEros  },
-    { id: 4, name: 'GucciEAU', price: '$140', imageUrl: GucciEAU },
-    { id: 5, name: 'Product 5', price: '$150', imageUrl: BleuDeChanel }
+    { id: 4, name: 'Gucci EAU', price: '$140', imageUrl: GucciEAU },
+    { id: 5, name: 'Bleu De Chanel', price: '$150', imageUrl: BleuDeChanel }
   ];
 
   return (
