@@ -9,7 +9,7 @@ const HomePage = () => {
       <section className="HomeHero">
         <div className='Darkshader'></div>
         <div className="TextContainer">
-          <h1>Welcome to JE.CO</h1>
+          <h1>JE.CO</h1>
           <p>Discover you next product here!</p>
         </div>
       </section>
