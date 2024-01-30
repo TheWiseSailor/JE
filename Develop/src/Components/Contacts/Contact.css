@@ -30,6 +30,7 @@
 
 .form-field {
   margin-bottom: 15px;
+  
 }
 
 .button-container-page {
@@ -62,13 +63,14 @@
 input,
 textarea {
   padding-left: 10px;
+
   outline: none;
   border: 2px solid rgb(247, 188, 78);
   border-radius: 30px;
   resize: vertical;
   width: 350px; 
-  margin: 0 auto; 
-  margin-top: 15px;
+  margin: 0 auto !important; 
+  margin-top: 15px !important;
 }
 @media screen and (max-width: 600px) {
   input,

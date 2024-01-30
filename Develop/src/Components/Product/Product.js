@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AcquaImage from './ProductImages/Acqua.png';
+import GoldBarImage from './ProductImages/GoldBar.png';
 
 import "./Product.css"
 
 const Product = () => {
 
   const products = [
-    { id: 1, name: 'Product 1', price: '$10', imageUrl: 'https://via.placeholder.com/150' },
-    { id: 2, name: 'Product 2', price: '$20', imageUrl: 'https://via.placeholder.com/150' },
+    { id: 1, name: 'Paco Rabanne', price: '$75', imageUrl: GoldBarImage },
+    { id: 2, name: 'Acqua Di Gio', price: '$85', imageUrl: AcquaImage },
     { id: 3, name: 'Product 3', price: '$30', imageUrl: 'https://via.placeholder.com/150' },
     { id: 4, name: 'Product 4', price: '$40', imageUrl: 'https://via.placeholder.com/150' },
     { id: 5, name: 'Product 5', price: '$50', imageUrl: 'https://via.placeholder.com/150' }
@@ -32,3 +34,6 @@ const Product = () => {
 };
 
 export default Product;
+
+
+//in the futurem add like an add to cart and make itto where we can view all our products we have in our car as well as making it to where we can add or delete as well

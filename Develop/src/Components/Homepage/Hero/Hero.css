@@ -1,5 +1,5 @@
 .HomeHeroContainer {
-  min-height: 92vh; 
+  min-height: 100vh; 
 
   text-align: center;
   background-size: cover; 
@@ -36,7 +36,7 @@ color: rgb(247, 188, 78);
     min-height: 500px; 
   }
 .TextContainer{
-  margin-top: -50px;
+  margin-top: 10px;
 }
  
   .Darkshader {
