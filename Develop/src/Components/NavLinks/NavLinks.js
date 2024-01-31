@@ -14,6 +14,7 @@ const NavLinks = () => {
 
   return (
     <div className='HeaderPosition'>
+             <AOSInitializer />
     <Navbar className='HeaderPrimary' expand="lg">
 
              <Link to="/" className='HomeLink'     data-aos="fade-down"
@@ -23,12 +24,17 @@ const NavLinks = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} className='HamburgerMenu' />
       <Navbar.Collapse id="basic-navbar-nav" className={expanded ? 'show' : ''}>
         <Nav className="mr-auto">
-          <Nav.Link as={Link} to="/product">Products</Nav.Link>
-          <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-          <Nav.Link as={Link} to="/signup">SignUp</Nav.Link>
+ 
+          <Nav.Link as={Link} to="/product"data-aos="fade-up"
+              data-aos-duration="3000">Products</Nav.Link>
+          
+          <Nav.Link as={Link} to="/contact"data-aos="fade-down"
+              data-aos-duration="3000">Contact</Nav.Link>
+          <Nav.Link as={Link} to="/signup"data-aos="fade-up"
+              data-aos-duration="3000">SignUp</Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <AOSInitializer />
+    
 
     </Navbar>
           </div>
